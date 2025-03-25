@@ -8,6 +8,9 @@ export default defineConfig({
   base: '/blog/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+
+    lastUpdated: true,
+
     nav: [
       { text: '首页', link: '/' },
       { text: '文章', link: '/posts/' },
